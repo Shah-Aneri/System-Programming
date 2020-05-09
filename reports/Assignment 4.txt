@@ -1,0 +1,8 @@
+Assignment 4
+
+Ques- Which future mode is  used in Fibonacci series and why?
+Ans-  I have used Future Flag/mode as FUTURE_SHARED for implementation of Future_Fib. 
+      The reason why I used this is because FUTURE_SHARED is immutable and will store 
+      the previous values which is used in our fibonacci solution whereas in FUTURE_EXCLUSIVE 
+      mode whatever is produced is consumed by the consumer and that value cannot be further 
+      used and so will not work while solving Future_Fibb problem.  
